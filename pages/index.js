@@ -1,8 +1,8 @@
 import Header from "../components/header"
 import Work from "../components/work"
+import Character from "../components/character"
 import About from "../components/about"
 import Contact from "../components/contact"
-import Sns from "../components/sns"
 import Footer from "../components/footer"
 
 export default function Home(){
@@ -10,10 +10,10 @@ export default function Home(){
     <>
       <Header></Header>
       <main>
+      <Character></Character>
         <Work></Work>
         <About></About>
         <Contact></Contact>
-        <Sns></Sns>
       </main>
       <Footer></Footer>
     </>
