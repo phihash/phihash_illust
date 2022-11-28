@@ -1,0 +1,10 @@
+
+
+.d_flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.padding_6{
+  padding: 6rem;
+}
