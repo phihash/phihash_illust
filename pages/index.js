@@ -3,6 +3,7 @@ import Work from "../components/work"
 import Character from "../components/character"
 import About from "../components/about"
 import Contact from "../components/contact"
+import Movie from "../components/movie"
 import Footer from "../components/footer"
 
 export default function Home(){
@@ -13,6 +14,7 @@ export default function Home(){
       <Character></Character>
         <Work></Work>
         <About></About>
+        <Movie></Movie>
         <Contact></Contact>
       </main>
       <Footer></Footer>
