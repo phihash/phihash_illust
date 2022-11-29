@@ -13,8 +13,9 @@ export default function Home(){
       <main>
       <Character></Character>
         <Work></Work>
-        <About></About>
         <Movie></Movie>
+
+        <About></About>
         <Contact></Contact>
       </main>
       <Footer></Footer>

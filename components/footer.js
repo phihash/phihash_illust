@@ -12,7 +12,7 @@ export default function Footer(){
         <a href='https://www.youtube.com/@user-vk1zk6qp2m' target='_blank' rel='noopener'><FontAwesomeIcon  icon={faYoutube} /></a>
       </div>
       <div className={`${styles.d_flex} ${styles.j_content} ${styles.margin}`}>
-      <span>phihash-illust</span>
+      <span><a href="/"> phihash-illust</a></span>
       <small> @phihash2022</small>
       </div>
     </div>

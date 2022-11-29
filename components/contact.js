@@ -7,7 +7,7 @@ export default function Contact(){
   return (
     <div className={`${styles.color} ${styles.padding_6}`}>
       <h2><FontAwesomeIcon icon={faEnvelope}/> Contact</h2>
-      <p>お手数ですが、TwitterやInstagramのDMで連絡をください</p>
+      <p>TwitterやInstagramのDMで連絡をください</p>
     </div>
   )
 }

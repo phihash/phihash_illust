@@ -1,7 +1,7 @@
 import styles from '../styles/character.module.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBlog, faCheese, faQuestion} from '@fortawesome/free-solid-svg-icons'
+import { faBlog, faCheese, faQuestion, faUserNinja} from '@fortawesome/free-solid-svg-icons'
 
 export default function Character(){
   return (
@@ -18,6 +18,17 @@ export default function Character(){
       </p>
 
       <hr/>
+      <h3><FontAwesomeIcon  icon={faUserNinja} /> はげます</h3>
+      <h4>デビュー</h4>
+      <p>2022年7月</p>
+      <h4>性格</h4>
+      <p>めげない</p>
+      <h4>紹介</h4>
+      <p>自分が励まされたいのに、みんなを応援する<br/>
+         月曜日がとても嫌いs<br/>
+      </p>
+
+      <hr/>
       <h3><FontAwesomeIcon  icon={faCheese} /> ねずみ</h3>
       <h4>デビュー</h4>
       <p>2022年11月</p>
@@ -27,6 +38,8 @@ export default function Character(){
       <p>食いしん坊なねずみのキャラクター<br/>
          大好物はヨーグルト <br/>
       </p>
+
+
 
     </div>
   )
