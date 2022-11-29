@@ -3,6 +3,11 @@
   background-color:  #f3c596;
 }
 
+.movie_css{
+  width: 40%;
+  height: 40vh;
+}
+
 .padding_6{
   padding: 5rem 8%;
 }
