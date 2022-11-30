@@ -2,13 +2,15 @@
 .color{
   /* background-color:  #f5f7f8;
   color: #329a5f; */
-  background-color:  #f4f4f4;
+  background-color:  #fdf6e4;
+
 
 }
 
 .section_title{
   font-family: 'Montserrat', sans-serif;
-  color:  #c1c683;
+  color:#10351a;
+  text-align: center;
 }
 
 
