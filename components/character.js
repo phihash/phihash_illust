@@ -1,7 +1,8 @@
 import styles from '../styles/character.module.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBlog, faCakeCandles, faCheese, faQuestion, faUserNinja} from '@fortawesome/free-solid-svg-icons'
+import { faBlog, faCakeCandles, faHandHolding,} from '@fortawesome/free-solid-svg-icons'
+import { faGratipay } from '@fortawesome/free-brands-svg-icons'
 
 export default function Character(){
   return (
@@ -13,9 +14,9 @@ export default function Character(){
       <h3> なんでちゃん</h3>
       <h4><FontAwesomeIcon icon={faCakeCandles} /> デビュー</h4>
       <p>2022年7月</p>
-      <h4>性格</h4>
+      <h4><FontAwesomeIcon icon={faGratipay} /> 性格</h4>
       <p>気まぐれで,のんびりしている</p>
-      <h4>紹介</h4>
+      <h4><FontAwesomeIcon icon={faHandHolding} /> 紹介</h4>
       <p><b>「!?」</b>型の耳をもつうさぎのキャラクター<br/>
          うさぎだけど基本的に雑食である。<br/>
       </p>
@@ -23,26 +24,26 @@ export default function Character(){
 
       <hr className={styles.hr }/>
       <div className={styles.padding_top_1}>
-        <h3><FontAwesomeIcon  icon={faUserNinja} /> はげます</h3>
+        <h3>はげます</h3>
         <h4><FontAwesomeIcon icon={faCakeCandles} /> デビュー</h4>
         <p>2022年7月</p>
-        <h4>性格</h4>
+        <h4><FontAwesomeIcon icon={faGratipay} /> 性格</h4>
         <p>めげない</p>
-        <h4>紹介</h4>
+        <h4><FontAwesomeIcon icon={faHandHolding} /> 紹介</h4>
         <p>自分が励まされたいのに、みんなを応援する<br/>
-          月曜日がとても嫌いs<br/>
+          月曜日がとても嫌い<br/>
         </p>
       </div>
 
 
       <hr className={styles.hr}/>
       <div className={styles.padding_top_1}>
-        <h3><FontAwesomeIcon  icon={faCheese} /> ねずみ</h3>
+        <h3>しろはむ</h3>
         <h4><FontAwesomeIcon icon={faCakeCandles} /> デビュー</h4>
         <p>2022年11月</p>
-        <h4>性格</h4>
+        <h4><FontAwesomeIcon icon={faGratipay} /> 性格</h4>
         <p>寂しがり屋,よく食べる</p>
-        <h4>紹介</h4>
+        <h4><FontAwesomeIcon icon={faHandHolding} /> 紹介</h4>
         <p>食いしん坊なねずみのキャラクター<br/>
           大好物はヨーグルト <br/>
         </p>
