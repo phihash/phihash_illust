@@ -7,8 +7,14 @@
   background-color: #f7c23c; */
 }
 
+.section_title{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color:#10351a;
+
+}
 
 
 .padding_6{
-  padding: 5rem 8%;
+  padding: 5.2rem 8%;
 }

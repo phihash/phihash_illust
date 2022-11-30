@@ -1,7 +1,18 @@
 
 .color{
-  background-color:  #f5f8f9;
+  /* background-color:  #f5f7f8;
+  color: #329a5f; */
+  background-color:  #f4f4f4;
+
+
+
 }
+
+.section_title{
+  font-family: 'Montserrat', sans-serif;
+  color:  #c1c683;
+}
+
 
 .d_flex{
   display: flex;

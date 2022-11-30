@@ -1,6 +1,7 @@
 
 .color{
-  background-color:  #f3c596;
+  background-color: #b1e7bf;
+  /* background-color:  #f3c596; */
 }
 
 .movie_css{
@@ -8,6 +9,13 @@
   width: 50%;
   height: 50%;
 }
+
+.section_title{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color:#f8fffa;
+}
+
 
 .padding_6{
   padding: 5rem 8%;

@@ -1,8 +1,14 @@
 
 .color{
-  background-color:  #f5f8f9;
+  background-color:  #f4f4f4;
 }
 
+.section_title{
+  font-family: 'Montserrat', sans-serif;
+  color:  #838d50;
+
+
+}
 
 .padding_6{
   padding: 5.2rem 8%;

@@ -6,7 +6,7 @@ import { faBlog, faCheese, faQuestion, faUserNinja} from '@fortawesome/free-soli
 export default function Character(){
   return (
     <div className={`${styles.color} ${styles.padding_6}`}>
-      <h2><FontAwesomeIcon  icon={faBlog} /> Character Profile</h2>
+      <h2 className={`${styles.section_title}`}><FontAwesomeIcon  icon={faBlog} /> Character Profile</h2>
       <h3><FontAwesomeIcon  icon={faQuestion} /> なんでちゃん</h3>
       <h4>デビュー</h4>
       <p>2022年7月</p>
