@@ -1,0 +1,23 @@
+
+.color{
+  background-color:  #fdf6e4;
+
+
+}
+
+.section_title{
+  font-family: 'Montserrat', sans-serif;
+  color:#10351a;
+  /* color:#f8fffa; */
+
+}
+
+
+.padding_6{
+  padding: 2.2rem 8%;
+  text-align: center;
+}
+
+.img_css{
+  max-width: 100%; /* 画像のレスポンシブ対応 */
+}
