@@ -15,6 +15,31 @@
 }
 
 
+.hr {
+  border-top: 1px solid #10351a;
+  height: 0em;
+  text-align: center;
+  overflow: visible;
+}
+.hr::after {
+  background-color: #fdf6e4;
+  color:#10351a;
+  content: "Φ";
+  /* content: "\002702"; */
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  top: -1em;
+  padding: 0 0.5em;
+}
+
+
 .padding_6{
-  padding: 5.2rem 8%;
+  padding: 4rem 8%;
+}
+
+.padding_top_1{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
