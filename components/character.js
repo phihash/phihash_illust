@@ -49,6 +49,19 @@ export default function Character(){
         </p>
       </div>
 
+      <hr className={styles.hr}/>
+      <div className={styles.padding_top_1}>
+        <h3>だるねこ</h3>
+        <h4><FontAwesomeIcon icon={faCakeCandles} /> デビュー</h4>
+        <p>2022年12月</p>
+        <h4><FontAwesomeIcon icon={faGratipay} /> 性格</h4>
+        <p>めんどくさがり</p>
+        <h4><FontAwesomeIcon icon={faHandHolding} /> 紹介</h4>
+        <p>何事にもやる気が起きないねこちゃん<br/>
+           好きなことだけをしていたい <br/>
+        </p>
+      </div>
+
 
 
 
