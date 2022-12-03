@@ -17,6 +17,9 @@ export default function About(){
         <p>現在は大学生です。<br/>
         イラストを描く以外にプログラミングをしています。JavaScriptという言語をメインに触っています。<br/>
         他にはINIや原因は自分にある。というアイドルが好きです。
+
+
+
         </p>
       </div>
     </div>

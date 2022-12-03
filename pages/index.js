@@ -8,11 +8,13 @@ import Movie from "../components/movie"
 import Manga from "../components/manga"
 import Footer from "../components/footer"
 
+
 export default function Home(){
   return (
     <>
       <Header></Header>
       <Hero></Hero>
+
       <main>
       <Character></Character>
         <Work></Work>

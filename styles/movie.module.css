@@ -1,6 +1,6 @@
 
 .color{
-  background-color: #b1e7bf;
+  background-color:  #fdf6e4;
   /* background-color:  #f3c596; */
 }
 
@@ -8,12 +8,13 @@
   aspect-ratio: 16/9;
   width: 50%;
   height: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 .section_title{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  color:#f8fffa;
 }
 
 
