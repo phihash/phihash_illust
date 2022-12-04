@@ -12,6 +12,7 @@ class MyDocument extends Document {
         <meta property="og:site_name" content="phihash-illust" />
         <meta property="og:image" content="hero.PNG" />
         <link rel="apple-touch-icon" href="apple.PNG" />
+        <link rel="favicon" href="apple.PNG" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet" />
         </Head>
