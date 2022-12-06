@@ -4,13 +4,19 @@
   color: #329a5f; */
   background-color:  #fdf6e4;
 
+}
 
+.img_css{
+  max-width: 50%;
+}
+
+.swiper_box{
+  text-align: center;
 }
 
 .section_title{
   font-family: 'Montserrat', sans-serif;
   color:#10351a;
-  text-align: center;
 }
 
 
@@ -21,4 +27,12 @@
 
 .padding_6{
   padding: 5rem 8%;
+}
+
+@media screen and (max-width:768px){
+
+  .img_css{
+    max-width: 120%; /* 画像のレスポンシブ対応 */
+  }
+
 }

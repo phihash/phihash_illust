@@ -7,6 +7,7 @@ import Contact from "../components/contact"
 import Movie from "../components/movie"
 import Manga from "../components/manga"
 // import Hoge from "../components/hoge"
+import Wallpaper from "../components/wallpaper"
 import Footer from "../components/footer"
 
 
@@ -18,6 +19,7 @@ export default function Home(){
       <main>
       <Character></Character>
         <Work></Work>
+        <Wallpaper></Wallpaper>
         <Manga></Manga>
 
         <Movie></Movie>
