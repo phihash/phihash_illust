@@ -6,6 +6,7 @@ import About from "../components/about"
 import Contact from "../components/contact"
 import Movie from "../components/movie"
 import Manga from "../components/manga"
+// import Hoge from "../components/hoge"
 import Footer from "../components/footer"
 
 
@@ -14,7 +15,6 @@ export default function Home(){
     <>
       <Header></Header>
       <Hero></Hero>
-
       <main>
       <Character></Character>
         <Work></Work>
@@ -25,6 +25,8 @@ export default function Home(){
         <About></About>
         <Contact></Contact>
       </main>
+      {/* <Hoge></Hoge> */}
+
       <Footer></Footer>
     </>
   )
