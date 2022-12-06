@@ -32,7 +32,7 @@
 @media screen and (max-width:768px){
 
   .img_css{
-    max-width: 120%; /* 画像のレスポンシブ対応 */
+    max-width: 90%; /* 画像のレスポンシブ対応 */
   }
 
 }

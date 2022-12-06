@@ -21,7 +21,7 @@ export default function Work(){
       <div className={`${styles.swiper_box}`}>
       <Swiper
       loop={true}
-      spaceBetween={200}
+
       slidesPerView={2}
       modules={[Navigation, Pagination,EffectCoverflow] }
       navigation
