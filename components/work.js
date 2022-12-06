@@ -17,7 +17,7 @@ export default function Work(){
   return (
     <div className={`${styles.color} ${styles.padding_6} `}>
       <h2 className={`${styles.section_title}`}><FontAwesomeIcon  icon={faStar} /> Work</h2>
-      <h3>壁紙</h3>
+      <h2>壁紙</h2>
       <div className={`${styles.swiper_box}`}>
       <Swiper
       loop={true}
@@ -42,7 +42,7 @@ export default function Work(){
 
 
       <button><Link href="2022-11-29.PNG" target='_blank' rel='noopener'>スマホの壁紙</Link></button>
-      <h3>LINEスタンプ</h3>
+      <h2>LINEスタンプ</h2>
 
     </div>
   )
