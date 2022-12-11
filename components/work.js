@@ -31,7 +31,7 @@ export default function Work(){
       <SwiperSlide><img className={ `${styles.img_css}`} src="2022-11-29.PNG" alt=""/></SwiperSlide>
       <SwiperSlide><img className={ `${styles.img_css}`} src="2022-11-29.PNG" alt=""/></SwiperSlide>
       <SwiperSlide><img className={ `${styles.img_css}`} src="2022-11-29.PNG" alt=""/></SwiperSlide>
-      <SwiperSlide><img className={ `${styles.img_css}`} src="2022-11-29.PNG" alt=""/></SwiperSlide>
+      <SwiperSlide><img className={ `${styles.img_css}`} src="2022-12-11.png" alt=""/></SwiperSlide>
       <SwiperSlide><img className={ `${styles.img_css}`} src="2022-11-29.PNG" alt=""/></SwiperSlide>
       <SwiperSlide><img className={ `${styles.img_css}`} src="2022-11-29.PNG" alt=""/></SwiperSlide>
       <SwiperSlide><img className={ `${styles.img_css}`} src="2022-11-29.PNG" alt=""/></SwiperSlide>
