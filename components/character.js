@@ -7,7 +7,7 @@ export default function Character({src,name,oneline,desc}) {
       <div class="text-center lg:w-2/3 w-full">
         <h1 class="title-font text-3xl mb-5 font-bold">{name}</h1>
         <p class="leading-relaxed text-lg font-bold mb-6">{oneline}</p>
-        <p class="leading-relaxed text-base font-bold">{desc}</p>
+        <p class="leading-relaxed text-left font-bold">{desc}</p>
       </div>
 
     </div>

@@ -2,7 +2,7 @@
 export default function Movie() {
   return (
   <section class="body-font">
-    <div class="container mt-20 mx-auto flex px-5 py-24 items-center justify-center flex-col">
+    <div class="container mt-14 mx-auto flex px-5 py-24 items-center justify-center flex-col">
     <div class="text-center lg:w-2/3 w-full">
         <h1 class="title-font sm:text-4xl text-4xl mb-8 font-medium text-gray-900">Movie</h1>
       </div>
