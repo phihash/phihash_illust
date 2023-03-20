@@ -1,34 +1,28 @@
-import Header from "../components/header"
-import Hero from "../components/hero"
-import Work from "../components/work"
-import Character from "../components/character"
-import About from "../components/about"
-import Contact from "../components/contact"
-import Movie from "../components/movie"
-import Manga from "../components/manga"
-import Footer from "../components/footer"
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
+import Character from '../components/character';
 
-
-export default function Home(){
+export default function Home() {
   return (
-    <>
-      <Header></Header>
-      <Hero></Hero>
+    <div className={styles.container}>
+      <Head>
+        <title>phihash illust</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
       <main>
-      <Character></Character>
-        <Work></Work>
-        <Manga></Manga>
 
-        <Movie></Movie>
 
-        <About></About>
-        <Contact></Contact>
+    <Character></Character>
+    <Character></Character>
+    <Character></Character>
+    <Character></Character>
+
+
+
       </main>
-      {/* <Hoge></Hoge> */}
 
-      <Footer></Footer>
-    </>
+
+    </div>
   )
 }
-
-

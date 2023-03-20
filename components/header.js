@@ -1,21 +1,25 @@
-import styles from '../styles/header.module.css'
+import React from "react";
 
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter , faInstagram, faYoutube, faTiktok ,faLine} from '@fortawesome/free-brands-svg-icons'
-
-
-export default function Header(){
+export default function Header({ fixed }) {
   return (
-    <div className={`${styles.color} ${styles.padding_6}  ${styles.d_flex} `}>
-      <h1 className={`${styles.section_title}`}><a href="/">Phihash-illust</a></h1>
-      <div className={`${styles.icons}`}>
-        <a href='https://twitter.com/phihash' target='_blank' rel='noopener'><FontAwesomeIcon  icon={faTwitter} /></a>
-        <a href='https://www.instagram.com/phihash_illust/' target='_blank' rel='noopener'><FontAwesomeIcon  icon={faInstagram} /></a>
-        <a href='https://www.youtube.com/@user-vk1zk6qp2m' target='_blank' rel='noopener'><FontAwesomeIcon  icon={faYoutube} /></a>
-        <a href='https://tiktok.com/@user8425307510384' target='_blank' rel='noopener'><FontAwesomeIcon  icon={faTiktok} /></a>
-        <a href='https://lin.ee/fQnluqW' target='_blank' rel='noopener'><FontAwesomeIcon  icon={faLine} /></a>
+   <header class="w-full text-sm pt-8 sm:pb-4">
+   <nav class="max-w-[85rem] w-full mx-auto  px-6 sm:flex sm:justify-between" aria-label="Global">
+      <a class="text-xl font-semibold flex justify-center" href="/">phihash illust</a>
+      <div class="flex flex-row items-center gap-5 mt-6 sm:mt-0 sm:pl-5 justify-center">
+        <a href="https://twitter.com/phihash">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+            </svg>
+        </a>
+        <a href="https://www.instagram.com/phihash_illust/">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
       </div>
-    </div>
-  )
+  </nav>
+</header>
+
+  );
 }
