@@ -8,7 +8,7 @@ export default function Shop() {
       <div class="text-center lg:w-2/3 w-full">
         <h1 class="title-font sm:text-4xl text-4xl mb-12 font-medium">Shop</h1>
       </div>
-      <div  class="w-3/4 object-cover object-center rounded">
+      <div  class="w-5/6 object-cover object-center rounded">
       <a href="https://suzuri.jp/phihash" target="_blank" rel="noopenner noreferrer">
         <img  alt="hero" src={Banner.src} />
       </a>
