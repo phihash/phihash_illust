@@ -7,7 +7,7 @@ import Mouse from '../public/images/mouse.png'
 import Bird from '../public/images/bird.png'
 import Rabbit from '../public/images/rabbit.png'
 import Human from '../public/images/human.png'
-
+import Shop from '../components/shop';
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -24,7 +24,7 @@ export default function Home() {
     <Character desc={"小さな体と黄色いふわふわの羽毛が魅力のひよこゆるキャラ。丸い目とぴょんぴょん跳ねる姿が子供たちに大人気で、愛くるしい表情でみんなの心をつかみます。地域のイベントやお祭りでは、元気いっぱいの姿で周りを明るくし、幸せを運ぶシンボルとして活躍しています。また、ひよこが孵化する春を象徴し、新しい生命や希望を感じさせるキャラクターでもあります。"} oneline={"うるうるした瞳をもつひよこ"}  name={"ぴよ"} src={Bird}></Character>
     <Character desc={"にんじんの形をしたユニークで愛らしい妖精キャラクター。オレンジ色の鮮やかなボディに、キュートな表情と緑の葉っぱがアクセントとなっている。健康を意識したライフスタイルを提案し、野菜の魅力を子供たちにも分かりやすく伝えることを目指す。農業や地域の活性化をサポートするために、イベントやキャンペーンにも積極的に参加。その個性的なデザインと、明るく元気なキャラクター性が、多くの人々を魅了している。"} oneline={"明るいにんじん"}  name={"にんじん"} src={Carrot}></Character>
     <Movie></Movie>
-
+    <Shop></Shop>
     </main>
 
 
