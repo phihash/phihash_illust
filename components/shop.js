@@ -1,4 +1,4 @@
-import Banner from '../public/images/banner.png'
+import Banner from '../public/images/banner.webp'
 import Link from 'next/link';
 
 export default function Shop() {
