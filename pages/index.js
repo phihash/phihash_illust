@@ -2,11 +2,11 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Character from '../components/character';
 import Movie from '../components/movie';
-import Carrot from '../public/images/carrot.png'
-import Mouse from '../public/images/mouse.png'
-import Bird from '../public/images/bird.png'
-import Rabbit from '../public/images/rabbit.png'
-import Human from '../public/images/human.png'
+import Carrot from '../public/images/carrot.webp'
+import Mouse from '../public/images/mouse.webp'
+import Bird from '../public/images/bird.webp'
+import Rabbit from '../public/images/rabbit.webp'
+import Human from '../public/images/human.webp'
 import Shop from '../components/shop';
 export default function Home() {
   return (
